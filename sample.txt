@@ -1,2 +1,12 @@
-nl;;
+methods used:
+git init
+git add .
+git commit -m "message"
+git remote add original https://github.com/meenal552/powerbi-github_integration.git
+(git remote add origin here is wrong)
+git push -u original master
 
+
+
+To check all user details like user name and email:
+git config --list
