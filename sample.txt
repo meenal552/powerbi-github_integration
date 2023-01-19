@@ -3,8 +3,13 @@ steps used:
 git init
 git add .
 git commit -m "message"
+
+//  I want to push my changes to Git servers then I will need to tell Git how to reach the central repository. So I will have to add this:
 git remote add original https://github.com/meenal552/powerbi-github_integration.git
 (git remote add origin here is wrong)
+
+//as whenever I need to send my code changes I need to use this words instead of remembering or typing the URL for the same.
+
 git push -u original master
 
 
