@@ -1,4 +1,5 @@
-methods used:
+steps used:
+
 git init
 git add .
 git commit -m "message"
@@ -9,4 +10,4 @@ git push -u original master
 
 
 To check all user details like user name and email:
-git config --list
+git config --list 
